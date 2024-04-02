@@ -45,3 +45,8 @@ tasks {
         token.set(System.getenv("PUBLISH_TOKEN"))
     }
 }
+
+dependencies {
+    implementation("redis.clients:jedis:5.1.0");
+    implementation ("com.alibaba.fastjson2:fastjson2:2.0.48");
+}

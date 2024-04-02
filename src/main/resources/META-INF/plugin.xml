@@ -29,7 +29,7 @@
     </extensions>
     <actions>
         <action id="DictPopUp_ID" class="com.nys.plugindemo.action.DictPopUp" text="Translate by nys"
-                description="actually translate by youdao">
+                description="actually translate by baidu">
             <add-to-group group-id="EditorPopupMenu" anchor="first"/>
         </action>
         <action id="WordList_ID" class="com.nys.plugindemo.action.WordList" text="See top words"
